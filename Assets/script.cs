@@ -21,6 +21,7 @@ public class script : MonoBehaviour
             {
                 Debug.Log("The last life!");
                 Debug.Log("edit my code");
+                 Debug.Log("secound edit my code");
 
             }
             playerLives--;
