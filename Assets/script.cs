@@ -20,6 +20,7 @@ public class script : MonoBehaviour
             if (playerLives == 1)
             {
                 Debug.Log("The last life!");
+                Debug.Log("edit my code");
 
             }
             playerLives--;
