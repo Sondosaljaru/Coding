@@ -5,7 +5,7 @@ using System.Data.Common;
 using System.Linq;
 using UnityEngine;
 
-public class script : MonoBehaviour
+public class secoundQuestion : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
