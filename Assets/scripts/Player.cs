@@ -5,12 +5,12 @@ using UnityEngine;
 public class Player
 {
 
-    string playerName = "";
-    int health = 100;
-    static int playerCount = 0;
+    public string playerName = "";
+    public int health = 100;
+    public static int playerCount = 0;
 
 
-    void InitializePlayer(string name, int initialHealth)
+    public void InitializePlayer(string name, int initialHealth)
     {
         playerName = name;
         health = initialHealth;
@@ -18,14 +18,14 @@ public class Player
     }
 
 
-    void Heal(int amount)
+    public void Heal(int amount)
     {
         health += amount;
         Debug.Log(health);
 
     }
 
-    void Heal(bool fullRestore)
+    public void Heal(bool fullRestore)
     {
         if (fullRestore == true)
         {
@@ -34,7 +34,7 @@ public class Player
 
     }
 
-    static void ShowPlayerCount()
+    public static void ShowPlayerCount()
     {
         Debug.Log(playerCount);
     }
